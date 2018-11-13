@@ -54,7 +54,7 @@ def create_prediction():
     if request.method == 'GET':
         return get_predictions();
     # --------------------------------------------------------------------------
-
+    #....
     # If we detect we want to do a PUT of a new prediction ...
     elif request.method == 'PUT':
         # Create an object from class Prediction with the information inserted
