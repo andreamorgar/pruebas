@@ -1,0 +1,10 @@
+{
+  "predictions": [
+    {
+      "ID": 1, 
+      "city": "Malaga", 
+      "date": "30-11-2018", 
+      "temperature": "16"
+    }
+  ]
+}
