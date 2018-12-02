@@ -3,7 +3,7 @@ from pymongo import *
 
 # Include URI of mLab
 # client = MongoClient(MONGODB_URI, connectTimeoutMS=30000)
-
+MONGODB_URI = "mongodb://test:test_password1@ds123584.mlab.com:23584/predictions"
 client = MongoClient(MONGODB_URI, connectTimeoutMS=30000)
 db = client.get_database("predictions")
 mongoPrediction = db.mongoPrediction
